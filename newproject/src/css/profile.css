@@ -1,0 +1,11 @@
+.profileName {
+  padding: 3px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  background-color: grey;
+}
+
+.border-profile {
+  background-color: red;
+}

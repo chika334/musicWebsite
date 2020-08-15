@@ -1,0 +1,51 @@
+input .email,
+input .password {
+  padding: 8px 8px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  border-radius: 10px;
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+}
+input.error {
+  border: 1px solid red;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 1.25rem;
+  color: #222;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.name,
+.email,
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+form {
+  padding-left: 44%;
+  padding-right: 42%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+@media screen and (max-width: 811px) {
+  form {
+    padding: 30%;
+  }
+}
